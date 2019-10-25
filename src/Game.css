@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700,900');
+
+body {
+    background-color: #111;
+    width: 99vw;
+}
+
+.game {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    text-align: center;
+}
+
+.board {
+    width: 600px;
+    height: 600px;
+    background-color: #dfecff;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    left: auto;
+    right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 7px #1f1c23 solid;
+}
+
+.tile {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    box-sizing: border-box;
+    border: 7px #1f1c23 solid;
+    cursor: pointer;
+    background-size: 186px !important;
+}
+
+.tile-x {
+    background-color: #ff5b7d;
+}
+
+.tile-y {
+    background-color: #7ff330;
+}
+
+.reset {
+    font-family: 'Work Sans', sans-serif;
+    width: 120px;
+    height: 50px;
+    background-color: transparent;
+    border: .2em solid #FFF;
+    color: #FFF;
+    opacity: 0.6;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.reset:hover {
+    opacity: 1;
+}
+
+.reset:active {
+    color: black;
+    background-color: white;
+}
+
+.message {
+    color: #FFF;
+    opacity: .6;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 32px;
+}
